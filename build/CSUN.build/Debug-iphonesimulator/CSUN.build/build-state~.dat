@@ -1,0 +1,243 @@
+TCSUN
+v7
+r0
+t323485333.246085
+cCheck dependencies
+cProcessInfoPlistFile /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/Info.plist CSUN-Info.plist
+cCompileXIB /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/MainWindow.xib
+cProcessPCH /var/folders/aj/ajjGENynFNGkEZifaNiqK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CSUN_Prefix-fmwnjnmyxcspmielaqgpqukhbktl/CSUN_Prefix.pch.gch CSUN_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/main.o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/CSUNAppDelegate.o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/CSUNAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/defaultViewController.o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN normal i386
+cGenerateDSYMFile /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app.dSYM /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN
+cTouch /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/CSUN_Prefix.pch
+c000000004D92992600000000000000B1
+t1301453094
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/CSUNAppDelegate.h
+c000000004D97A7A400000000000001AB
+t1301784484
+s427
+i<UIKit/UIKit.h>
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/CSUNAppDelegate.m
+c000000004D929D990000000000000A16
+t1301454233
+s2582
+i"CSUNAppDelegate.h"
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.h
+c000000004D97C7100000000000000155
+t1301792528
+s341
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m
+c000000004D97C70A000000000000058A
+t1301792522
+s1418
+i"defaultViewController.h"
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/MainWindow.xib
+c000000004D97A5200000000000005EB6
+t1301783840
+s24246
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/CSUN.LinkFileList
+c000000004D97C71100000000000001A2
+t1301792529
+s418
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/CSUNAppDelegate.o
+t1301792532
+s52820
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/defaultViewController.o
+t1301792532
+s43960
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/main.o
+t1301792532
+s6340
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app
+t1301792533
+s204
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app.dSYM
+t1301792533
+s102
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN
+t1301792533
+s18116
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/Info.plist
+t1301792529
+s579
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/MainWindow.nib
+t1301792531
+s2454
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/PkgInfo
+t1301792529
+s8
+
+N/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/main.m
+c000000004D929926000000000000015E
+t1301453094
+s350
+i<UIKit/UIKit.h>
+
+N/var/folders/aj/ajjGENynFNGkEZifaNiqK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CSUN_Prefix-fmwnjnmyxcspmielaqgpqukhbktl/CSUN_Prefix.pch.gch
+t1301792532
+s15814064
+
+NCSUN-Info.plist
+c000000004D929926000000000000038D
+t1301453094
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323485329#323485329#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/CSUNAppDelegate.o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/CSUNAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323485332.819957
+e323485332.941849
+r1
+xCompileC
+xbuild/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/CSUNAppDelegate.o
+x/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/CSUNAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/CSUNAppDelegate.m323485332#323485332#0(0"0(0#0#78"/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/CSUNAppDelegate.m8610899520#2038"    cd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-generated-files.hmap -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-own-target-headers.hmap -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-all-target-headers.hmap -iquote /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-project-headers.hmap -F/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/include -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/DerivedSources/i386 -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/DerivedSources -include /var/folders/aj/ajjGENynFNGkEZifaNiqK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CSUN_Prefix-fmwnjnmyxcspmielaqgpqukhbktl/CSUN_Prefix.pch -c /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/CSUNAppDelegate.m -o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/CSUNAppDelegate.o0#
+
+CCompileC build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/defaultViewController.o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323485332.820973
+e323485332.941467
+r1
+xCompileC
+xbuild/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/defaultViewController.o
+x/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m: In function '-[defaultViewController viewDidLoad]':
+o/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m:17: warning: missing sentinel in function call
+o/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m: In function '-[defaultViewController tableView:cellForRowAtIndexPath:]':
+o/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m:53: warning: invalid receiver type ''
+lSLF07#2@92"Compile /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m323485332#323485332#0(552"/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m: In function '-[defaultViewController viewDidLoad]':/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m:17: warning: missing sentinel in function call/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m: In function '-[defaultViewController tableView:cellForRowAtIndexPath:]':/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m:53: warning: invalid receiver type ''2(22@33"Missing sentinel in function call323485332#138#132#0(6@84"/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m323485322#17#0#17#0#0"0(22@24"Invalid receiver type ''323485332#429#123#0(6@84"/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m323485322#53#0#53#0#0"0(0#0#84"/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m8601046848#2050"    cd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-generated-files.hmap -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-own-target-headers.hmap -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-all-target-headers.hmap -iquote /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-project-headers.hmap -F/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/include -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/DerivedSources/i386 -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/DerivedSources -include /var/folders/aj/ajjGENynFNGkEZifaNiqK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CSUN_Prefix-fmwnjnmyxcspmielaqgpqukhbktl/CSUN_Prefix.pch -c /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/defaultViewController.m -o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/defaultViewController.o0#
+
+CCompileC build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/main.o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323485332.818991
+e323485332.931159
+r1
+xCompileC
+xbuild/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/main.o
+x/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/main.m323485332#323485332#0(0"0(0#0#59"/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/main.m8613100096#2008"    cd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-generated-files.hmap -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-own-target-headers.hmap -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-all-target-headers.hmap -iquote /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-project-headers.hmap -F/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/include -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/DerivedSources/i386 -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/DerivedSources -include /var/folders/aj/ajjGENynFNGkEZifaNiqK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CSUN_Prefix-fmwnjnmyxcspmielaqgpqukhbktl/CSUN_Prefix.pch -c /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/main.m -o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/MainWindow.xib
+s323485329.469005
+e323485331.686086
+r1
+xCompileXIB
+x/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib323485329#323485331#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#67"/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/MainWindow.xib8612126240#609"    cd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/MainWindow.nib /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app.dSYM /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN
+s323485333.201228
+e323485333.244107
+r1
+xGenerateDSYMFile
+x/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app.dSYM
+x/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/CSUN.app.dSYM build/Debug-iphonesimulator/CSUN.app/CSUN323485333#323485333#0(0"0(0#0#94"/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN8611063648#416"    cd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN -o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app.dSYM0#
+
+CLd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN normal i386
+s323485332.941905
+e323485333.201071
+r1
+xLd
+x/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN
+xnormal
+xi386
+lSLF07#2@99"Link /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN323485332#323485333#0(0"0(0#0#0"8612250592#955"    cd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator -F/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator -filelist /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/Objects-normal/i386/CSUN.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/CSUN0#
+
+CProcessInfoPlistFile /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/Info.plist CSUN-Info.plist
+s323485329.444497
+e323485329.468901
+r1
+xProcessInfoPlistFile
+x/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/Info.plist
+xCSUN-Info.plist
+lSLF07#2@23"Process CSUN-Info.plist323485329#323485329#0(0"0(0#0#68"/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/CSUN-Info.plist12948325676744814#512"    cd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CSUN-Info.plist -genpkginfo /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app/Info.plist0#
+
+CProcessPCH /var/folders/aj/ajjGENynFNGkEZifaNiqK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CSUN_Prefix-fmwnjnmyxcspmielaqgpqukhbktl/CSUN_Prefix.pch.gch CSUN_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s323485331.686335
+e323485332.818874
+r1
+xProcessPCH
+x/var/folders/aj/ajjGENynFNGkEZifaNiqK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CSUN_Prefix-fmwnjnmyxcspmielaqgpqukhbktl/CSUN_Prefix.pch.gch
+xCSUN_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile CSUN_Prefix.pch323485331#323485332#0(0"0(0#0#68"/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/CSUN_Prefix.pch8612569152#1889"    cd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-generated-files.hmap -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-own-target-headers.hmap -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-all-target-headers.hmap -iquote /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/CSUN-project-headers.hmap -F/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/include -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/DerivedSources/i386 -I/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/CSUN.build/Debug-iphonesimulator/CSUN.build/DerivedSources -c /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/CSUN_Prefix.pch -o /var/folders/aj/ajjGENynFNGkEZifaNiqK++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CSUN_Prefix-fmwnjnmyxcspmielaqgpqukhbktl/CSUN_Prefix.pch.gch0#
+
+CTouch /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app
+s323485333.244185
+e323485333.246044
+r1
+xTouch
+x/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app
+lSLF07#2@95"Touch /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app323485333#323485333#0(0"0(0#0#0"8610994528#303"    cd /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/build/Debug-iphonesimulator/CSUN.app0#
+

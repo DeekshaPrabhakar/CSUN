@@ -1,0 +1,2 @@
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/ClassDetailViewController.m:227: warning: property 'saveClass' requires method '-saveClass' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/ClassDetailViewController.m:227: warning: property 'saveClass' requires the method 'setSaveClass:' to be defined - use @synthesize, @dynamic or provide a method implementation

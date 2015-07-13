@@ -1,0 +1,2 @@
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClass.m: In function '-[myClass dealloc]':
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClass.m:70: warning: assignment makes integer from pointer without a cast

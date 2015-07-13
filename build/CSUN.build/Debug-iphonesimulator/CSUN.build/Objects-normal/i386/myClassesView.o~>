@@ -1,0 +1,18 @@
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:13: error: no declaration of property 'currentClass' found in the interface
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:14: error: no declaration of property 'data' found in the interface
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m: In function '-[myClassesView viewDidLoad]':
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:24: error: 'appDelegate' undeclared (first use in this function)
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:24: error: (Each undeclared identifier is reported only once
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:24: error: for each function it appears in.)
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:24: error: 'CSUNAppDelegate' undeclared (first use in this function)
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:24: error: expected expression before ')' token
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:25: error: 'data' undeclared (first use in this function)
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m: In function '-[myClassesView tableView:numberOfRowsInSection:]':
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:72: error: 'data' undeclared (first use in this function)
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:73: warning: control reaches end of non-void function
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m: In function '-[myClassesView tableView:cellForRowAtIndexPath:]':
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:174: error: 'ClassInfo' undeclared (first use in this function)
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:174: error: 'curInfo' undeclared (first use in this function)
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:175: error: 'ClassDetails' undeclared (first use in this function)
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:175: error: 'cur' undeclared (first use in this function)
+/Users/deekshaprabhakar/Documents/XCodeProjects/CSUN/Classes/myClassesView.m:176: error: 'data' undeclared (first use in this function)

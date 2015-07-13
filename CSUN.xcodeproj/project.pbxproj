@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CSUNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CSUNAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		924015E313F4CA5800A11F13 /* FacultyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924015E213F4CA5800A11F13 /* FacultyDetailViewController.m */; };
+		924015E813F4CA8A00A11F13 /* FacultyDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 924015E713F4CA8A00A11F13 /* FacultyDetailView.xib */; };
+		9240163113F4CDD900A11F13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9240163013F4CDD900A11F13 /* MapKit.framework */; };
+		CB25E2141342D31A00DF314F /* defaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25E2131342D31A00DF314F /* defaultViewController.m */; };
+		CB514FC2144B634D003A8498 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB514FC1144B634D003A8498 /* QuartzCore.framework */; };
+		CB514FDE144B8E65003A8498 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB514FDD144B8E65003A8498 /* CoreData.framework */; };
+		CB940D3F148FD4CC00DDE18C /* MyClassScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB940D3E148FD4CC00DDE18C /* MyClassScheduleView.xib */; };
+		CB940FC014901EBF00DDE18C /* myClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CB940FBF14901EBF00DDE18C /* myClass.m */; };
+		CB941075149032FB00DDE18C /* addblackIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB941074149032FB00DDE18C /* addblackIcon.jpeg */; };
+		CB9412A51491E0C000DDE18C /* UIButtonTypeDetailDisclosure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB9412A31491E0C000DDE18C /* UIButtonTypeDetailDisclosure.jpg */; };
+		CB9412A61491E0C000DDE18C /* UIButtonTypeContactAdd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB9412A41491E0C000DDE18C /* UIButtonTypeContactAdd.jpg */; };
+		CB9BDA0E1482D91E002CC340 /* ParkingInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9BDA0D1482D91E002CC340 /* ParkingInfoViewController.m */; };
+		CB9BDA131482D939002CC340 /* ParkingLotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9BDA121482D939002CC340 /* ParkingLotsViewController.m */; };
+		CB9BDB6114831318002CC340 /* Parking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9BDB6014831318002CC340 /* Parking.m */; };
+		CB9BDC4614832C79002CC340 /* ManzanitaHall1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC3B14832C79002CC340 /* ManzanitaHall1.jpg */; };
+		CB9BDC4714832C79002CC340 /* artgallery-stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC3C14832C79002CC340 /* artgallery-stamp.jpg */; };
+		CB9BDC4814832C79002CC340 /* vpac-stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC3D14832C79002CC340 /* vpac-stamp.jpg */; };
+		CB9BDC4D14832C79002CC340 /* csun30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC4214832C79002CC340 /* csun30.jpg */; };
+		CB9BDC5014832C79002CC340 /* oviatt_entrance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC4514832C79002CC340 /* oviatt_entrance.jpg */; };
+		CB9BDC6A14832F19002CC340 /* chapparalHall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC6014832F19002CC340 /* chapparalHall.jpeg */; };
+		CB9BDC6B14832F19002CC340 /* oviatt2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC6114832F19002CC340 /* oviatt2.jpeg */; };
+		CB9BDC6C14832F19002CC340 /* artscenter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC6214832F19002CC340 /* artscenter.jpeg */; };
+		CB9BDC6D14832F19002CC340 /* oviatt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC6314832F19002CC340 /* oviatt.jpeg */; };
+		CB9BDC6E14832F19002CC340 /* csunlib2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC6414832F19002CC340 /* csunlib2.jpeg */; };
+		CB9BDC6F14832F19002CC340 /* noski.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC6514832F19002CC340 /* noski.jpeg */; };
+		CB9BDC7014832F19002CC340 /* juniperhall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC6614832F19002CC340 /* juniperhall.jpeg */; };
+		CB9BDC7114832F19002CC340 /* csun_lib.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC6714832F19002CC340 /* csun_lib.jpeg */; };
+		CB9BDC7214832F19002CC340 /* library.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC6814832F19002CC340 /* library.jpeg */; };
+		CB9BDC7314832F19002CC340 /* CSUNLogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC6914832F19002CC340 /* CSUNLogo.jpeg */; };
+		CB9BDC7514832F3C002CC340 /* manzanitahall2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDC7414832F3C002CC340 /* manzanitahall2.jpeg */; };
+		CB9BDCB5148331C7002CC340 /* Photos.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB9BDCB4148331C7002CC340 /* Photos.xib */; };
+		CB9BDDF214847BE0002CC340 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9BDDF114847BE0002CC340 /* CoreLocation.framework */; };
+		CBA08C5E147867680012D500 /* ClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08C5D147867680012D500 /* ClassInfo.m */; };
+		CBA08CEF147872590012D500 /* ClassDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08CEE147872590012D500 /* ClassDetails.m */; };
+		CBA08DCB1478904F0012D500 /* ClassDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08DCA1478904F0012D500 /* ClassDetailViewController.m */; };
+		CBA08E8714789C070012D500 /* AboutCSUNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08E8614789C070012D500 /* AboutCSUNViewController.m */; };
+		CBA08EA5147997230012D500 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08EA4147997230012D500 /* GameViewController.m */; };
+		CBA08EE5147A4D660012D500 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08EE4147A4D660012D500 /* IntroViewController.m */; };
+		CBA08EE8147A4D900012D500 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08EE7147A4D900012D500 /* HistoryViewController.m */; };
+		CBA08EEB147A4DBE0012D500 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08EEA147A4DBE0012D500 /* InfoViewController.m */; };
+		CBA08EEE147A4DDA0012D500 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08EED147A4DDA0012D500 /* PhotosViewController.m */; };
+		CBA08F1F147B35B90012D500 /* BrowseClassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08F1E147B35B90012D500 /* BrowseClassesViewController.m */; };
+		CBA08F22147B37BB0012D500 /* MyClassScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA08F21147B37BB0012D500 /* MyClassScheduleViewController.m */; };
+		CBA08F40147B38DF0012D500 /* ClassDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA08F3F147B38DF0012D500 /* ClassDetailView.xib */; };
+		CBA09005147B73070012D500 /* AboutCSUN.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA09004147B73070012D500 /* AboutCSUN.m */; };
+		CBCF839413EF9907001E68DC /* ClassScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF839313EF9907001E68DC /* ClassScheduleViewController.m */; };
+		CBCF839713EF9916001E68DC /* ParkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF839613EF9916001E68DC /* ParkingViewController.m */; };
+		CBCF839E13EF994F001E68DC /* ParkingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCF839D13EF994F001E68DC /* ParkingView.xib */; };
+		CBE8445713F7858100EF5FBE /* FacultyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE8445613F7858100EF5FBE /* FacultyViewController.m */; };
+		CBE844B113F8217500EF5FBE /* iCSUNDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CBE844B013F8217500EF5FBE /* iCSUNDB.sqlite */; };
+		CBE844CD13F83FEF00EF5FBE /* Faculty.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE844CC13F83FEF00EF5FBE /* Faculty.m */; };
+		CBE844D813F841BC00EF5FBE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE844D713F841BC00EF5FBE /* libsqlite3.0.dylib */; };
+		CBF919EE14898EAA00FD1B5F /* FacultySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF919ED14898EAA00FD1B5F /* FacultySchedule.m */; };
+		CBF91A491489A07700FD1B5F /* FacScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF91A481489A07700FD1B5F /* FacScheduleViewController.m */; };
+		CBF91B771489CD7000FD1B5F /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF91B761489CD7000FD1B5F /* MapPin.m */; };
+		CBF91E4A148B60D700FD1B5F /* httpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF91E49148B60D700FD1B5F /* httpRequest.m */; };
+		CBF91E6F148B690300FD1B5F /* myJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF91E6E148B690300FD1B5F /* myJsonParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CSUNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUNAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CSUNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSUNAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CSUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CSUN_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSUN_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CSUN-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CSUN-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		924015E113F4CA5800A11F13 /* FacultyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacultyDetailViewController.h; sourceTree = "<group>"; };
+		924015E213F4CA5800A11F13 /* FacultyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacultyDetailViewController.m; sourceTree = "<group>"; };
+		924015E713F4CA8A00A11F13 /* FacultyDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacultyDetailView.xib; sourceTree = "<group>"; };
+		9240163013F4CDD900A11F13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CB25E2121342D31A00DF314F /* defaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defaultViewController.h; sourceTree = "<group>"; };
+		CB25E2131342D31A00DF314F /* defaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = defaultViewController.m; sourceTree = "<group>"; };
+		CB514FC1144B634D003A8498 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CB514FDD144B8E65003A8498 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CB940D3E148FD4CC00DDE18C /* MyClassScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyClassScheduleView.xib; sourceTree = "<group>"; };
+		CB940FBE14901EBF00DDE18C /* myClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myClass.h; sourceTree = "<group>"; };
+		CB940FBF14901EBF00DDE18C /* myClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myClass.m; sourceTree = "<group>"; };
+		CB941074149032FB00DDE18C /* addblackIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = addblackIcon.jpeg; sourceTree = "<group>"; };
+		CB9412A31491E0C000DDE18C /* UIButtonTypeDetailDisclosure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIButtonTypeDetailDisclosure.jpg; sourceTree = "<group>"; };
+		CB9412A41491E0C000DDE18C /* UIButtonTypeContactAdd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UIButtonTypeContactAdd.jpg; sourceTree = "<group>"; };
+		CB9BDA0C1482D91E002CC340 /* ParkingInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingInfoViewController.h; sourceTree = "<group>"; };
+		CB9BDA0D1482D91E002CC340 /* ParkingInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingInfoViewController.m; sourceTree = "<group>"; };
+		CB9BDA111482D939002CC340 /* ParkingLotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingLotsViewController.h; sourceTree = "<group>"; };
+		CB9BDA121482D939002CC340 /* ParkingLotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingLotsViewController.m; sourceTree = "<group>"; };
+		CB9BDB5F14831318002CC340 /* Parking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parking.h; sourceTree = "<group>"; };
+		CB9BDB6014831318002CC340 /* Parking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parking.m; sourceTree = "<group>"; };
+		CB9BDC3B14832C79002CC340 /* ManzanitaHall1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ManzanitaHall1.jpg; sourceTree = "<group>"; };
+		CB9BDC3C14832C79002CC340 /* artgallery-stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "artgallery-stamp.jpg"; sourceTree = "<group>"; };
+		CB9BDC3D14832C79002CC340 /* vpac-stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vpac-stamp.jpg"; sourceTree = "<group>"; };
+		CB9BDC4214832C79002CC340 /* csun30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = csun30.jpg; sourceTree = "<group>"; };
+		CB9BDC4514832C79002CC340 /* oviatt_entrance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oviatt_entrance.jpg; sourceTree = "<group>"; };
+		CB9BDC6014832F19002CC340 /* chapparalHall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chapparalHall.jpeg; sourceTree = "<group>"; };
+		CB9BDC6114832F19002CC340 /* oviatt2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oviatt2.jpeg; sourceTree = "<group>"; };
+		CB9BDC6214832F19002CC340 /* artscenter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = artscenter.jpeg; sourceTree = "<group>"; };
+		CB9BDC6314832F19002CC340 /* oviatt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oviatt.jpeg; sourceTree = "<group>"; };
+		CB9BDC6414832F19002CC340 /* csunlib2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = csunlib2.jpeg; sourceTree = "<group>"; };
+		CB9BDC6514832F19002CC340 /* noski.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noski.jpeg; sourceTree = "<group>"; };
+		CB9BDC6614832F19002CC340 /* juniperhall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = juniperhall.jpeg; sourceTree = "<group>"; };
+		CB9BDC6714832F19002CC340 /* csun_lib.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = csun_lib.jpeg; sourceTree = "<group>"; };
+		CB9BDC6814832F19002CC340 /* library.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = library.jpeg; sourceTree = "<group>"; };
+		CB9BDC6914832F19002CC340 /* CSUNLogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CSUNLogo.jpeg; sourceTree = "<group>"; };
+		CB9BDC7414832F3C002CC340 /* manzanitahall2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manzanitahall2.jpeg; sourceTree = "<group>"; };
+		CB9BDCB4148331C7002CC340 /* Photos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Photos.xib; sourceTree = "<group>"; };
+		CB9BDDF114847BE0002CC340 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CBA08C5C147867680012D500 /* ClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassInfo.h; sourceTree = "<group>"; };
+		CBA08C5D147867680012D500 /* ClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassInfo.m; sourceTree = "<group>"; };
+		CBA08CED147872590012D500 /* ClassDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassDetails.h; sourceTree = "<group>"; };
+		CBA08CEE147872590012D500 /* ClassDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassDetails.m; sourceTree = "<group>"; };
+		CBA08DC91478904F0012D500 /* ClassDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassDetailViewController.h; sourceTree = "<group>"; };
+		CBA08DCA1478904F0012D500 /* ClassDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassDetailViewController.m; sourceTree = "<group>"; };
+		CBA08E8514789C070012D500 /* AboutCSUNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutCSUNViewController.h; sourceTree = "<group>"; };
+		CBA08E8614789C070012D500 /* AboutCSUNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutCSUNViewController.m; sourceTree = "<group>"; };
+		CBA08EA3147997230012D500 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CBA08EA4147997230012D500 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CBA08EE3147A4D660012D500 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		CBA08EE4147A4D660012D500 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		CBA08EE6147A4D900012D500 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		CBA08EE7147A4D900012D500 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		CBA08EE9147A4DBE0012D500 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		CBA08EEA147A4DBE0012D500 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		CBA08EEC147A4DDA0012D500 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		CBA08EED147A4DDA0012D500 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		CBA08F1D147B35B90012D500 /* BrowseClassesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseClassesViewController.h; sourceTree = "<group>"; };
+		CBA08F1E147B35B90012D500 /* BrowseClassesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseClassesViewController.m; sourceTree = "<group>"; };
+		CBA08F20147B37BB0012D500 /* MyClassScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClassScheduleViewController.h; sourceTree = "<group>"; };
+		CBA08F21147B37BB0012D500 /* MyClassScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClassScheduleViewController.m; sourceTree = "<group>"; };
+		CBA08F3F147B38DF0012D500 /* ClassDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassDetailView.xib; sourceTree = "<group>"; };
+		CBA09003147B73070012D500 /* AboutCSUN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutCSUN.h; sourceTree = "<group>"; };
+		CBA09004147B73070012D500 /* AboutCSUN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutCSUN.m; sourceTree = "<group>"; };
+		CBCF839213EF9907001E68DC /* ClassScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassScheduleViewController.h; sourceTree = "<group>"; };
+		CBCF839313EF9907001E68DC /* ClassScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassScheduleViewController.m; sourceTree = "<group>"; };
+		CBCF839513EF9916001E68DC /* ParkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingViewController.h; sourceTree = "<group>"; };
+		CBCF839613EF9916001E68DC /* ParkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingViewController.m; sourceTree = "<group>"; };
+		CBCF839D13EF994F001E68DC /* ParkingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkingView.xib; sourceTree = "<group>"; };
+		CBE8445513F7858100EF5FBE /* FacultyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacultyViewController.h; sourceTree = "<group>"; };
+		CBE8445613F7858100EF5FBE /* FacultyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacultyViewController.m; sourceTree = "<group>"; };
+		CBE844B013F8217500EF5FBE /* iCSUNDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iCSUNDB.sqlite; sourceTree = "<group>"; };
+		CBE844CB13F83FEF00EF5FBE /* Faculty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Faculty.h; sourceTree = "<group>"; };
+		CBE844CC13F83FEF00EF5FBE /* Faculty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Faculty.m; sourceTree = "<group>"; };
+		CBE844D713F841BC00EF5FBE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		CBF919EC14898EAA00FD1B5F /* FacultySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacultySchedule.h; sourceTree = "<group>"; };
+		CBF919ED14898EAA00FD1B5F /* FacultySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacultySchedule.m; sourceTree = "<group>"; };
+		CBF91A471489A07700FD1B5F /* FacScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacScheduleViewController.h; sourceTree = "<group>"; };
+		CBF91A481489A07700FD1B5F /* FacScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacScheduleViewController.m; sourceTree = "<group>"; };
+		CBF91B751489CD7000FD1B5F /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		CBF91B761489CD7000FD1B5F /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		CBF91E48148B60D700FD1B5F /* httpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpRequest.h; sourceTree = "<group>"; };
+		CBF91E49148B60D700FD1B5F /* httpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = httpRequest.m; sourceTree = "<group>"; };
+		CBF91E6D148B690300FD1B5F /* myJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myJsonParser.h; sourceTree = "<group>"; };
+		CBF91E6E148B690300FD1B5F /* myJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myJsonParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				9240163113F4CDD900A11F13 /* MapKit.framework in Frameworks */,
+				CBE844D813F841BC00EF5FBE /* libsqlite3.0.dylib in Frameworks */,
+				CB514FC2144B634D003A8498 /* QuartzCore.framework in Frameworks */,
+				CB514FDE144B8E65003A8498 /* CoreData.framework in Frameworks */,
+				CB9BDDF214847BE0002CC340 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* CSUNAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CSUNAppDelegate.m */,
+				CB25E2121342D31A00DF314F /* defaultViewController.h */,
+				CB25E2131342D31A00DF314F /* defaultViewController.m */,
+				CBA09003147B73070012D500 /* AboutCSUN.h */,
+				CBA09004147B73070012D500 /* AboutCSUN.m */,
+				CBA08E8514789C070012D500 /* AboutCSUNViewController.h */,
+				CBA08E8614789C070012D500 /* AboutCSUNViewController.m */,
+				CBA08EE3147A4D660012D500 /* IntroViewController.h */,
+				CBA08EE4147A4D660012D500 /* IntroViewController.m */,
+				CBA08EE6147A4D900012D500 /* HistoryViewController.h */,
+				CBA08EE7147A4D900012D500 /* HistoryViewController.m */,
+				CBA08EE9147A4DBE0012D500 /* InfoViewController.h */,
+				CBA08EEA147A4DBE0012D500 /* InfoViewController.m */,
+				CBA08EEC147A4DDA0012D500 /* PhotosViewController.h */,
+				CBA08EED147A4DDA0012D500 /* PhotosViewController.m */,
+				CBE8445513F7858100EF5FBE /* FacultyViewController.h */,
+				CBE8445613F7858100EF5FBE /* FacultyViewController.m */,
+				CBE844CB13F83FEF00EF5FBE /* Faculty.h */,
+				CBE844CC13F83FEF00EF5FBE /* Faculty.m */,
+				924015E113F4CA5800A11F13 /* FacultyDetailViewController.h */,
+				924015E213F4CA5800A11F13 /* FacultyDetailViewController.m */,
+				CBF919EC14898EAA00FD1B5F /* FacultySchedule.h */,
+				CBF919ED14898EAA00FD1B5F /* FacultySchedule.m */,
+				CBF91A471489A07700FD1B5F /* FacScheduleViewController.h */,
+				CBF91A481489A07700FD1B5F /* FacScheduleViewController.m */,
+				CBCF839213EF9907001E68DC /* ClassScheduleViewController.h */,
+				CBCF839313EF9907001E68DC /* ClassScheduleViewController.m */,
+				CBA08F1D147B35B90012D500 /* BrowseClassesViewController.h */,
+				CBA08F1E147B35B90012D500 /* BrowseClassesViewController.m */,
+				CBA08DC91478904F0012D500 /* ClassDetailViewController.h */,
+				CBA08DCA1478904F0012D500 /* ClassDetailViewController.m */,
+				CBA08F20147B37BB0012D500 /* MyClassScheduleViewController.h */,
+				CBA08F21147B37BB0012D500 /* MyClassScheduleViewController.m */,
+				CBA08C5C147867680012D500 /* ClassInfo.h */,
+				CBA08C5D147867680012D500 /* ClassInfo.m */,
+				CBA08CED147872590012D500 /* ClassDetails.h */,
+				CBA08CEE147872590012D500 /* ClassDetails.m */,
+				CB940FBE14901EBF00DDE18C /* myClass.h */,
+				CB940FBF14901EBF00DDE18C /* myClass.m */,
+				CBCF839513EF9916001E68DC /* ParkingViewController.h */,
+				CBCF839613EF9916001E68DC /* ParkingViewController.m */,
+				CB9BDA0C1482D91E002CC340 /* ParkingInfoViewController.h */,
+				CB9BDA0D1482D91E002CC340 /* ParkingInfoViewController.m */,
+				CB9BDA111482D939002CC340 /* ParkingLotsViewController.h */,
+				CB9BDA121482D939002CC340 /* ParkingLotsViewController.m */,
+				CB9BDB5F14831318002CC340 /* Parking.h */,
+				CB9BDB6014831318002CC340 /* Parking.m */,
+				CBA08EA3147997230012D500 /* GameViewController.h */,
+				CBA08EA4147997230012D500 /* GameViewController.m */,
+				CBF91B751489CD7000FD1B5F /* MapPin.h */,
+				CBF91B761489CD7000FD1B5F /* MapPin.m */,
+				CBF91E48148B60D700FD1B5F /* httpRequest.h */,
+				CBF91E49148B60D700FD1B5F /* httpRequest.m */,
+				CBF91E6D148B690300FD1B5F /* myJsonParser.h */,
+				CBF91E6E148B690300FD1B5F /* myJsonParser.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CSUN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CSUN_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB9BDC3914832B78002CC340 /* Photos */,
+				CBE844B013F8217500EF5FBE /* iCSUNDB.sqlite */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CSUN-Info.plist */,
+				CBCF839D13EF994F001E68DC /* ParkingView.xib */,
+				924015E713F4CA8A00A11F13 /* FacultyDetailView.xib */,
+				CBA08F3F147B38DF0012D500 /* ClassDetailView.xib */,
+				CB9BDCB4148331C7002CC340 /* Photos.xib */,
+				CB940D3E148FD4CC00DDE18C /* MyClassScheduleView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				9240163013F4CDD900A11F13 /* MapKit.framework */,
+				CBE844D713F841BC00EF5FBE /* libsqlite3.0.dylib */,
+				CB514FC1144B634D003A8498 /* QuartzCore.framework */,
+				CB514FDD144B8E65003A8498 /* CoreData.framework */,
+				CB9BDDF114847BE0002CC340 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB9BDC3914832B78002CC340 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				CB9412A31491E0C000DDE18C /* UIButtonTypeDetailDisclosure.jpg */,
+				CB9412A41491E0C000DDE18C /* UIButtonTypeContactAdd.jpg */,
+				CB941074149032FB00DDE18C /* addblackIcon.jpeg */,
+				CB9BDC4214832C79002CC340 /* csun30.jpg */,
+				CB9BDC6914832F19002CC340 /* CSUNLogo.jpeg */,
+				CB9BDC6814832F19002CC340 /* library.jpeg */,
+				CB9BDC6714832F19002CC340 /* csun_lib.jpeg */,
+				CB9BDC6114832F19002CC340 /* oviatt2.jpeg */,
+				CB9BDC6414832F19002CC340 /* csunlib2.jpeg */,
+				CB9BDC6314832F19002CC340 /* oviatt.jpeg */,
+				CB9BDC4514832C79002CC340 /* oviatt_entrance.jpg */,
+				CB9BDC6514832F19002CC340 /* noski.jpeg */,
+				CB9BDC6614832F19002CC340 /* juniperhall.jpeg */,
+				CB9BDC6014832F19002CC340 /* chapparalHall.jpeg */,
+				CB9BDC6214832F19002CC340 /* artscenter.jpeg */,
+				CB9BDC3B14832C79002CC340 /* ManzanitaHall1.jpg */,
+				CB9BDC7414832F3C002CC340 /* manzanitahall2.jpeg */,
+				CB9BDC3C14832C79002CC340 /* artgallery-stamp.jpg */,
+				CB9BDC3D14832C79002CC340 /* vpac-stamp.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CSUN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CSUN" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSUN;
+			productName = CSUN;
+			productReference = 1D6058910D05DD3D006BFB54 /* CSUN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CSUN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CSUN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				CBCF839E13EF994F001E68DC /* ParkingView.xib in Resources */,
+				924015E813F4CA8A00A11F13 /* FacultyDetailView.xib in Resources */,
+				CBE844B113F8217500EF5FBE /* iCSUNDB.sqlite in Resources */,
+				CBA08F40147B38DF0012D500 /* ClassDetailView.xib in Resources */,
+				CB9BDC4614832C79002CC340 /* ManzanitaHall1.jpg in Resources */,
+				CB9BDC4714832C79002CC340 /* artgallery-stamp.jpg in Resources */,
+				CB9BDC4814832C79002CC340 /* vpac-stamp.jpg in Resources */,
+				CB9BDC4D14832C79002CC340 /* csun30.jpg in Resources */,
+				CB9BDC5014832C79002CC340 /* oviatt_entrance.jpg in Resources */,
+				CB9BDC6A14832F19002CC340 /* chapparalHall.jpeg in Resources */,
+				CB9BDC6B14832F19002CC340 /* oviatt2.jpeg in Resources */,
+				CB9BDC6C14832F19002CC340 /* artscenter.jpeg in Resources */,
+				CB9BDC6D14832F19002CC340 /* oviatt.jpeg in Resources */,
+				CB9BDC6E14832F19002CC340 /* csunlib2.jpeg in Resources */,
+				CB9BDC6F14832F19002CC340 /* noski.jpeg in Resources */,
+				CB9BDC7014832F19002CC340 /* juniperhall.jpeg in Resources */,
+				CB9BDC7114832F19002CC340 /* csun_lib.jpeg in Resources */,
+				CB9BDC7214832F19002CC340 /* library.jpeg in Resources */,
+				CB9BDC7314832F19002CC340 /* CSUNLogo.jpeg in Resources */,
+				CB9BDC7514832F3C002CC340 /* manzanitahall2.jpeg in Resources */,
+				CB9BDCB5148331C7002CC340 /* Photos.xib in Resources */,
+				CB940D3F148FD4CC00DDE18C /* MyClassScheduleView.xib in Resources */,
+				CB941075149032FB00DDE18C /* addblackIcon.jpeg in Resources */,
+				CB9412A51491E0C000DDE18C /* UIButtonTypeDetailDisclosure.jpg in Resources */,
+				CB9412A61491E0C000DDE18C /* UIButtonTypeContactAdd.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CSUNAppDelegate.m in Sources */,
+				CB25E2141342D31A00DF314F /* defaultViewController.m in Sources */,
+				CBCF839413EF9907001E68DC /* ClassScheduleViewController.m in Sources */,
+				CBCF839713EF9916001E68DC /* ParkingViewController.m in Sources */,
+				924015E313F4CA5800A11F13 /* FacultyDetailViewController.m in Sources */,
+				CBE8445713F7858100EF5FBE /* FacultyViewController.m in Sources */,
+				CBE844CD13F83FEF00EF5FBE /* Faculty.m in Sources */,
+				CBA08C5E147867680012D500 /* ClassInfo.m in Sources */,
+				CBA08CEF147872590012D500 /* ClassDetails.m in Sources */,
+				CBA08DCB1478904F0012D500 /* ClassDetailViewController.m in Sources */,
+				CBA08E8714789C070012D500 /* AboutCSUNViewController.m in Sources */,
+				CBA08EA5147997230012D500 /* GameViewController.m in Sources */,
+				CBA08EE5147A4D660012D500 /* IntroViewController.m in Sources */,
+				CBA08EE8147A4D900012D500 /* HistoryViewController.m in Sources */,
+				CBA08EEB147A4DBE0012D500 /* InfoViewController.m in Sources */,
+				CBA08EEE147A4DDA0012D500 /* PhotosViewController.m in Sources */,
+				CBA08F1F147B35B90012D500 /* BrowseClassesViewController.m in Sources */,
+				CBA08F22147B37BB0012D500 /* MyClassScheduleViewController.m in Sources */,
+				CBA09005147B73070012D500 /* AboutCSUN.m in Sources */,
+				CB9BDA0E1482D91E002CC340 /* ParkingInfoViewController.m in Sources */,
+				CB9BDA131482D939002CC340 /* ParkingLotsViewController.m in Sources */,
+				CB9BDB6114831318002CC340 /* Parking.m in Sources */,
+				CBF919EE14898EAA00FD1B5F /* FacultySchedule.m in Sources */,
+				CBF91A491489A07700FD1B5F /* FacScheduleViewController.m in Sources */,
+				CBF91B771489CD7000FD1B5F /* MapPin.m in Sources */,
+				CBF91E4A148B60D700FD1B5F /* httpRequest.m in Sources */,
+				CBF91E6F148B690300FD1B5F /* myJsonParser.m in Sources */,
+				CB940FC014901EBF00DDE18C /* myClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CSUN_Prefix.pch;
+				INFOPLIST_FILE = "CSUN-Info.plist";
+				PRODUCT_NAME = CSUN;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CSUN_Prefix.pch;
+				INFOPLIST_FILE = "CSUN-Info.plist";
+				PRODUCT_NAME = CSUN;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CSUN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CSUN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
